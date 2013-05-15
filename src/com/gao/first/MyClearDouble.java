@@ -52,5 +52,6 @@ public class MyClearDouble {
         FileOutputFormat.setOutputPath(job,new Path(args[1]));
 
         System.out.println(job.waitForCompletion(true) ? 1 : 0);
+
     }
 }
